@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sk-SK">
+    <head>
+        <title>SpeechMeter</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="js/main.js"></script>
+        </head>
+    <body>
+        <h1>SpeechMeter</h1>
+
+        <p>
+            This app allows you to measure the rate of speech of your screenreader in words per minute.
+            </p>
+        <p>
+            Enter any text below, and press space on the Start button. Do not interrupt your screenreader reading the text, wait until it finishes. As soon as it ends, press space again to calculate the result.
+            </p>
+
+        <form>
+            <label for="textToSpeakTextArea">Text to speak:</label>
+            <br />
+            <textarea id="textToSpeakTextArea" cols="40" rows="5"></textarea>
+            <br />
+
+            <input type="button" id="submitButton" value="Start" />
+            <input type="button" id="insertPredefinedTextButton" value="Insert predefined text" />
+            </form>
+
+        <p>
+            Current speech rate: <strong id=currentSpeechRateStrong>0</strong>WPM
+            <br />
+            Average speech rate: <strong id="averageSpeechRateStrong">0</strong>WPM
+            <br />
+            Word count: <strong id="wordCountStrong">0</strong>
+            </p>
+
+        <h2>Spoken text</h2>
+
+        <p id="spokenTextParagraph" aria-live="polite"></p>
+
+        <p>
+            🄯 2021 Rastislav Kish. Licensed under GNU GPL v3. You can learn more on the official <a href="https://github.com/RastislavKish/SpeechMeter">GitHub repository.</a>
+            </p>
+
+        </body>
+    </html>
