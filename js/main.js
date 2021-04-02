@@ -80,7 +80,7 @@ function wordCount(text) {
     let inWord=false;
 
     for (let i=0;i<text.length;i++) {
-        if (text[i]==" ") {
+        if (text[i]==" " || text[i]=="\n") {
             if (inWord) {
                 inWord=false;
                 }
