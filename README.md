@@ -2,7 +2,7 @@
 
 When it comes to the first configuration of any device to be used with a screenreader, one of the major questions is: "What speech rate should be set in the screenreader?"
 There are often ways to define this attribute in percentage, what is however not very helpful. Various screenreaders have various approaches to the meaning of the percentage even on a single platform, so how should one independently and objectively determine the real speech rate in a crossplatform environment?
-Of course, one can simply try out various configurations, and find the most suitingone for him / her.
+Of course, they can simply try out various configurations, and find the most suiting for them.
 The problem is, that such determination is very subjective and inaccurate, it can be influenced by many factors, and even change over time as one gets used to higher / lower voice speeds.
 
 SpeechMeter is a tool to resolve this situation. It's a web application, so it can be accessed from any platform with a decent browser and screenreader. It allows the user to measure the speech rate in words per minute unit (WPM), which should provide a better image about voice's speech rate.
